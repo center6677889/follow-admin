@@ -26,7 +26,7 @@ pipeline {
             steps {
                 //通过SSH、FTP等方式，将dist目录上传到服务器
                 sh '''
-                scp -r dist/* stock:/data/stock-follow/test-stock-follow-admin/
+                scp -r dist/* stock:/data/stock-follow/test-stock-follow-admin2/
                 '''
             }
         }
